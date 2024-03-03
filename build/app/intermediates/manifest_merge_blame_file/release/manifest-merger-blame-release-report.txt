@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.teranics.youthhealth"
+4    android:versionCode="10"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:2:1-17:15
+12
+13        <!-- If your app checks for SMS support -->
+14        <intent>
+14-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:4:9-7:18
+15            <action android:name="android.intent.action.VIEW" />
+15-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:5:13-65
+15-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:5:21-62
+16
+17            <data android:scheme="sms" />
+17-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:6:13-42
+17-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:6:19-39
+18        </intent>
+19        <!-- If your app checks for call support -->
+20        <intent>
+20-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:9:9-12:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:5:13-65
+21-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:5:21-62
+22
+23            <data android:scheme="tel" />
+23-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:6:13-42
+23-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:6:19-39
+24        </intent>
+25        <!-- If your application checks for inAppBrowserView launch mode support -->
+26        <intent>
+26-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:14:9-16:18
+27            <action android:name="android.support.customtabs.action.CustomTabsService" />
+27-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:15:13-90
+27-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:15:21-87
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:50:5-66
+31-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:50:22-64
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:51:5-78
+32-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:51:22-76
+33
+34    <permission
+34-->[androidx.core:core:1.10.1] /Users/code/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+35        android:name="com.teranics.youthhealth.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.10.1] /Users/code/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.10.1] /Users/code/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.teranics.youthhealth.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.10.1] /Users/code/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.10.1] /Users/code/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+39
+40    <application
+41        android:name="android.app.Application"
+41-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:20:9-42
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.10.1] /Users/code/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:21:9-43
+44        android:label="youthhealth" >
+44-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:19:9-36
+45        <activity
+45-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:22:9-42:20
+46            android:name="com.teranics.youthhealth.MainActivity"
+46-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:23:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:27:13-163
+48            android:exported="true"
+48-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:24:13-36
+49            android:hardwareAccelerated="true"
+49-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:28:13-47
+50            android:launchMode="singleTop"
+50-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:25:13-43
+51            android:theme="@style/LaunchTheme"
+51-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:26:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:29:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:34:13-37:17
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:35:15-70
+62                android:resource="@style/NormalTheme" />
+62-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:36:15-52
+63
+64            <intent-filter>
+64-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:38:13-41:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:39:17-68
+65-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:39:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:40:17-76
+67-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:40:27-74
+68            </intent-filter>
+69        </activity>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+74-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:45:9-47:33
+75            android:name="flutterEmbedding"
+75-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:46:13-44
+76            android:value="2" />
+76-->/Users/code/Documents/Projects/youth_health-main/android/app/src/main/AndroidManifest.xml:47:13-30
+77
+78        <activity
+78-->[:url_launcher_android] /Users/code/Documents/Projects/youth_health-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+79            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+79-->[:url_launcher_android] /Users/code/Documents/Projects/youth_health-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+80            android:exported="false"
+80-->[:url_launcher_android] /Users/code/Documents/Projects/youth_health-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+81            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+81-->[:url_launcher_android] /Users/code/Documents/Projects/youth_health-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+82
+83        <uses-library
+83-->[androidx.window:window:1.0.0-beta04] /Users/code/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+84            android:name="androidx.window.extensions"
+84-->[androidx.window:window:1.0.0-beta04] /Users/code/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0-beta04] /Users/code/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+86        <uses-library
+86-->[androidx.window:window:1.0.0-beta04] /Users/code/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+87            android:name="androidx.window.sidecar"
+87-->[androidx.window:window:1.0.0-beta04] /Users/code/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+88            android:required="false" />
+88-->[androidx.window:window:1.0.0-beta04] /Users/code/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+89    </application>
+90
+91</manifest>
